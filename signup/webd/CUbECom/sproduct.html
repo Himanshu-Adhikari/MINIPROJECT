@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>CubeCom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb69369dc1.js" crossorigin="anonymous"></script>
+    <style>
+        .dropbtn{
+            background-color: #e5ebeb;
+            color: white;
+            padding: 16px;
+            font-size:16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: rgba(235, 245, 245, 0.784);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+            z-index: 1;
+        }
+        .dropdown-content a{
+            color:rgb(17, 33, 47);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        } 
+        .dropdown-content a:hover{
+            background-color: #088178;
+            color: aliceblue;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown:hover .dropbtn{
+            background-color: #088178;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img\logo.jpg" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html" ><i class="fa-solid fa-bag-shopping"></i></a>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </li>
+                <li>
+                <a href="http://localhost/signup/"><i class="fa-solid fa-right-from-bracket"></i></a>
+                     </li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></i></a>
+            <div class="dropdown">
+            <button class="dropbtn"><i id="bar" class="fas fa-outdent"></i></button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="Blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="http://localhost/signup/"><i class="fa-solid fa-right-from-bracket"></i></a>
+
+            </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image"> 
+            <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/14ORfjwKv32dHL53p9kkzR40lKoaE_xkF_600x.jpg?v=1656930068" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/14ORfjwKv32dHL53p9kkzR40lKoaE_xkF_600x.jpg?v=1656930068" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/1tmp5m7YX4NR04XH2zshamnfvjsb3s7Sz_991521e7-7053-45c6-a070-05b131efad7e_600x.jpg?v=1656930068" width="100%" class="small-img" alt="">
+                </div><div class="small-img-col">
+                    <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/1o8stBoY7SdOuXqAYsogXvOp19yJYyYSu_600x.jpg?v=1632458606" width="100%" class="small-img" alt="">
+                </div><div class="small-img-col">
+                    <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/18hUJwiv1V6gMAL84Jpe7w-uvrrYwYLu8_600x.jpg?v=1634107914" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>MoYu</h6>
+            <h4>RS3M 2021 3x3 Maglev</h4>
+            <h2>&#8377; 1199</h2>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>CUBE DESCRIPTION</h4>
+            <span>The all-new MoYu RS3M 2021 Magnetic speed cube with MagLev technology is an innovative upgrade on the 1st choice of cubers for 3x3, the very popular MoFang Jiaoshi RS3M 2020 speed cube.
+
+                This is one of the first factory-produced speed cubes that uses a revolutionary new magnet levitation tensioning system instead of the contemporary spring tensioning system used in the RS3M and virtually every other speed cube ever made.</span> 
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Product</h2>
+        <p>Winter Cubing collection</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/13AVum-tSleU0p1xTkJZabj_51v406xNX_600x.jpg?v=1610961819"
+                    alt="">
+                <div class="des">
+                    <span>Qiyi</span>
+                    <h5>Magnaetic Clock</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>&#8377; 2900</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/1g9YL0-q4Tu97ELVmayzvdbt6kHvz5N8Y_400x.jpg?v=1651729059"
+                    alt="">
+                <div class="des">
+                    <span>Gan</span>
+                    <h5>Mirror Cube (Magnetic)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>&#8377; 2000</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/1130061_2_600x.jpg?v=1657015986"
+                    alt="">
+                <div class="des">
+                    <span>Gan</span>
+                    <h5>Magnaetic Skewb</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>&#8377; 2600</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/products/1030477_1_600x.jpg?v=1642765966"
+                    alt="">
+                <div class="des">
+                    <span>Gan</span>
+                    <h5>12 M MagLev 3x3 (Limited Edition)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>&#8377; 6000</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for CubingNews</h4>
+            <p>Get E-mail updates about the Cubing Competitions going on and <span>Special Offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button calss="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <dic class="col">
+            <img class="logo" src="img/logo.jpg" alt="">
+            <h4><strong>Contact</strong></h4>
+            <p><strong>Address :</strong>562 Weilington Road ,Street 32,San Francisco</p>
+            <p><strong>Phone :</strong>+01 2552 324</p>
+            <p><strong>Hours :</strong>10:00 - 18:00 Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div> 
+            </div>
+
+        </dic>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Contact US</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">Vew cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Need help?</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway
+            </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        
+    </footer>
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementsByClassName("small-img");
+        smallimg[0].onclick=function(){
+            MainImg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            MainImg.src=smallimg[3].src;
+        }
+    </script>
+</body>
+
+</html>

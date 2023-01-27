@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>CubeCom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb69369dc1.js" crossorigin="anonymous"></script>
+    <style>
+        .dropbtn{
+            background-color: #e5ebeb;
+            color: white;
+            padding: 10px;
+            font-size:10px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: rgba(235, 245, 245, 0.784);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+            z-index: 1;
+        }
+        .dropdown-content a{
+            color:rgb(17, 33, 47);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        } 
+        .dropdown-content a:hover{
+            background-color: #088178;
+            color: aliceblue;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown:hover .dropbtn{
+            background-color: #088178;
+        }
+        
+
+    </style>
+    
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img\logo.jpg" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a class="active" href="Contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html" ><i class="fa-solid fa-bag-shopping"></i></i></a>
+                </li>
+                <li>
+                <a href="http://localhost/signup/"><i class="fa-solid fa-right-from-bracket"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></i></a>
+            <div class="dropdown">
+            <button class="dropbtn"><i id="bar" class="fas fa-outdent"></i></button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="Blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="http://localhost/signup/"><i class="fa-solid fa-right-from-bracket"></i></a>
+
+            </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="page-header">
+        <h2>#Let's Connect</h2>
+        <p></p>
+    </section>
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>Get In Touch</span>
+            <h2>Visit one of our Cubing Stores Nearby And start your Cubing Journey</h2>
+            <h3>Contact Details:-</h3>
+            <li>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <p>Red Fort street Heisenberg</p>
+            </li>
+            <li>
+                <i class="fa-regular fa-envelope"></i>
+                <p>CubeCom@gmail.com</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>02223-422-323</p>
+            </li>
+            <li>
+                <i class="fa-regular fa-clock"></i>
+                <p>Monday to Saturday: 9am to 5pm</p>
+            </li>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10164.138253243804!2d81.60545320412989!3d21.2286964997394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddd757e70b03%3A0x7a77aa4bc07e9e37!2sCubelelo%20-%20India&#39;s%20Largest%20Puzzle%20Store!5e0!3m2!1sen!2sin!4v1674570110884!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section id="form-details">
+        <form action="">
+            <span>Leave Your Thoughts</span>
+            <h2>We love to hear your cubing experience</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="YOUR CUBING JOURNEY"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/t/40/assets/1202928147984060fi3i5tl3usbkvr1dt1di_height640-1662477182107.png?v=1662477187"alt="">
+                <P><span><b>Aryan Chabra</b></span>Xprt : 3x3 Expert and 4x4 Expert<br>Achievements : He holds National record in 3x3.<br></P>
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/t/40/assets/pf-c60079f8--kunal-1.png?v=1629090572"alt="">
+                <P><span><b>Kunal Oak</b></span>Xprt : 3x3, OH, 4x4, 5x5, 6x6, 7x7<br>Achievements : He is a 7 time NR Holder and defending 7x7 National Champion.<br></P>
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0270/0342/0758/t/40/assets/pf-f822f70f--Hritik-2.png?v=1629090649"alt="">
+                <P><span><b>Hritik Ramnath</b></span>Xprt : Pyraminx<br>Achievements : He is a 4 time Pyraminx winner in CSUL events<br></P>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for CubingNews</h4>
+            <p>Get E-mail updates about the Cubing Competitions going on and <span>Special Offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button calss="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <dic class="col">
+            <img class="logo" src="img/logo.jpg" alt="">
+            <h4><strong>Contact</strong></h4>
+            <p><strong>Address :</strong>562 Weilington Road ,Street 32,San Francisco</p>
+            <p><strong>Phone :</strong>+01 2552 324</p>
+            <p><strong>Hours :</strong>10:00 - 18:00 Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div> 
+            </div>
+
+        </dic>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Contact US</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">Vew cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Need help?</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway
+            </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        
+    </footer>
+
+
+</body>
+
+</html>
