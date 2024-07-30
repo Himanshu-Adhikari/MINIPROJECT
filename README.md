@@ -26,8 +26,8 @@ The landing page where users can choose to input text or use audio for sentiment
 ### Results Page
 Page displaying the sentiment analysis result and feedback.
 
-<img src="https://github.com/user-attachments/assets/54fe7e77-b0cb-424f-846e-6b3e7075ce3a" alt="ResultPage" width="300"/>
-<img src="https://github.com/user-attachments/assets/3512e770-a686-487e-8c35-b92ebc6752ed" alt="Results" width="300"/>
+<img src="https://github.com/user-attachments/assets/54fe7e77-b0cb-424f-846e-6b3e7075ce3a" alt="ResultPage" height="300" width="300"/>
+<img src="https://github.com/user-attachments/assets/3512e770-a686-487e-8c35-b92ebc6752ed" alt="Results" height="300" width="300"/>
 
 ## How It Works
 
