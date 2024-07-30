@@ -35,5 +35,4 @@ Page displaying the sentiment analysis result and feedback.
 2. **Perform Sentiment Analysis**: The text (converted from speech or directly input) is analyzed using a BERT model.
 3. **Translate if Needed**: If the input is in a language not directly supported by the BERT model, the Google Translation API translates it to a supported language.
 4. **Get Feedback**: The analyzed sentiment is fed to Gemini for feedback.
-
-<img src="[https://github.com/user-attachments/assets/3512e770-a686-487e-8c35-b92ebc6752ed](https://github.com/user-attachments/assets/faf8e29d-85d1-4289-a0e6-8b10a2a5a89a)" alt="Results" width="300"/>
+<img src="https://github.com/user-attachments/assets/faf8e29d-85d1-4289-a0e6-8b10a2a5a89a" alt="Image" width="300"/>
