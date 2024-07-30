@@ -21,19 +21,13 @@ This project is designed to perform sentiment analysis on user input, supporting
 ### Landing Page
 The landing page where users can choose to input text or use audio for sentiment analysis.
 
-![Landing Page](URL_TO_LANDING_PAGE_IMAGE)
-
-### Input Page
-Page where users input text or use the audio feature.
-
-![Input Page](URL_TO_INPUT_PAGE_IMAGE)
+<img src="https://github.com/user-attachments/assets/5468631c-551c-4072-9be7-7151bdd1dd40" alt="Landing Page" width="300"/>
 
 ### Results Page
 Page displaying the sentiment analysis result and feedback.
-![WhatsApp Image 2024-07-10 at 11 12 32_64a72488](https://github.com/user-attachments/assets/7a634db3-804b-4ad7-babf-a8ba72e074a6)
 
-![Results Page](![WhatsApp Image 2024-07-10 at 11 12 32_64a72488](https://github.com/user-attachments/assets/7a634db3-804b-4ad7-babf-a8ba72e074a6)
-)
+<img src="https://github.com/user-attachments/assets/54fe7e77-b0cb-424f-846e-6b3e7075ce3a" alt="ResultPage" width="300"/>
+<img src="https://github.com/user-attachments/assets/3512e770-a686-487e-8c35-b92ebc6752ed" alt="Results" width="300"/>
 
 ## How It Works
 
@@ -42,11 +36,4 @@ Page displaying the sentiment analysis result and feedback.
 3. **Translate if Needed**: If the input is in a language not directly supported by the BERT model, the Google Translation API translates it to a supported language.
 4. **Get Feedback**: The analyzed sentiment is fed to Gemini for feedback.
 
-## Getting Started
-
-To run this project locally, follow these steps:
-
-### Clone the repository
-```sh
-git clone https://github.com/your-repo/multilingual-sentimental-analysis.git
-cd multilingual-sentimental-analysis
+<img src="[https://github.com/user-attachments/assets/3512e770-a686-487e-8c35-b92ebc6752ed](https://github.com/user-attachments/assets/faf8e29d-85d1-4289-a0e6-8b10a2a5a89a)" alt="Results" width="300"/>
